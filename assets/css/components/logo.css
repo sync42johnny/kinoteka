@@ -4,7 +4,8 @@
 }
 
 .logo__link {
-  background: url("../../imgs/logo.png") no-repeat;
+  /* background: url("../../imgs/logo.png") no-repeat; */
+  background: url('/assets/imgs/logo.svg') no-repeat;
   background-position: center;
   background-size: 105%;
   display: inline-block;
