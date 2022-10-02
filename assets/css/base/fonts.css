@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 :root,
 :host {
   --fa-style-family-classic: "Font Awesome 6 Free";
@@ -9,7 +11,8 @@
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../../fonts/fa-solid-900.woff2") format("woff2"), url("../../fonts/fa-solid-900.ttf") format("truetype");
+  src: url("../../fonts/fa-solid-900.woff2") format("woff2"),
+    url("../../fonts/fa-solid-900.ttf") format("truetype");
 }
 
 .fas,
