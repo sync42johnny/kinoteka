@@ -49,3 +49,11 @@
 .fa-magnifying-glass::before {
   content: "\f002";
 }
+
+.fa-telegram::before {
+  content: "\f2c6";
+}
+
+.fa-telegram-plane::before {
+  content: "\f2c6";
+}

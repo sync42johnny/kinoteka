@@ -1,0 +1,85 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 90px 40px;
+}
+
+.team-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-content .card {
+  width: 33rem;
+  height: 33.6rem;
+  padding: 6rem 3rem;
+  margin: 2rem;
+  background: transparent;
+}
+
+.team-content .card .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team-content .card .content .imgBx {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.team-content .card .content .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-content .card .content .contentBx .name {
+  font-size: 1.7rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.team-content .card .content .contentBx .role {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.team-content .card .content .sci {
+  margin-top: 2rem;
+}
+
+.team-content .card .content .sci a,
+.team-content .card .content .sci a:visited {
+  font-size: 2.5rem;
+  margin: 1rem;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .team-content .card {
+    padding: 3rem;
+  }
+  .team-content .card .content .contentBx h4 {
+    font-size: 2.1rem;
+  }
+  .team-content .card .content .contentBx h5 {
+    font-size: 1.6rem;
+  }
+  .team-content .card .content .sci a {
+    font-size: 3rem;
+  }
+}
