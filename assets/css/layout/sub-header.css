@@ -1,0 +1,63 @@
+.subheader {
+  padding-top: 9.7rem;
+}
+
+.subheader .subheader-content {
+  height: 43rem;
+  background: url("../../imgs/brian-mcgowan-LObpG0ku8VM-unsplash.jpg") no-repeat
+    center center / cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+  position: relative;
+}
+
+.subheader-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.76) 15.54%,
+    rgba(0, 0, 0, 0.192) 60.23%,
+    rgba(0, 0, 0, 0.76) 100%
+  );
+}
+
+.sub-header-logo__link {
+  background: url("../../imgs/kinoteka.svg") no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+  height: 16rem;
+  width: 32rem;
+  margin: 2rem 0;
+}
+
+.sub-header-logo,
+.subheader__text-1,
+.subheader__text-2 {
+    z-index: 2;
+}
+
+.subheader-content .subheader__text-1 {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.subheader-content .subheader__text-2 {
+  font-size: 1.8rem;
+  margin: 2.563rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .subheader .subheader-content {
+    text-align: center;
+    padding: 0 2rem;
+  }
+}

@@ -4,10 +4,9 @@
 }
 
 .logo__link {
-  /* background: url("../../imgs/logo.png") no-repeat; */
-  background: url('../../imgs/logo.svg') no-repeat;
+  background: url('../../imgs/kinoteka.svg') no-repeat;
   background-position: center;
-  background-size: 105%;
+  background-size: 100%;
   display: inline-block;
   height: 4rem;
   width: 7.5rem;
