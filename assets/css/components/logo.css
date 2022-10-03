@@ -1,10 +1,5 @@
-.logo {
-  margin-left: 3.8rem;
-  padding-top: 1.6rem;
-}
-
 .logo__link {
-  background: url('../../imgs/kinoteka.svg') no-repeat;
+  background: url("../../imgs/kinoteka.svg") no-repeat;
   background-position: center;
   background-size: 100%;
   display: inline-block;
@@ -13,11 +8,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .logo {
-    margin-left: 2.2rem;
-    padding-top: 2rem;
-  }
-
   .logo__link {
     height: 3.2rem;
     width: 5.9rem;

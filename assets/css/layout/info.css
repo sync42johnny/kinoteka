@@ -49,9 +49,9 @@
   }
 
   .info-content {
-    top: 3rem;
+    top: 1rem;
     left: 3rem;
     margin-top: 6rem;
-    padding: 0 2rem 0 0;
+    padding: 0 2rem;
   }
 }
