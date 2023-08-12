@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Kinoteka</title>
+  </head>
+  <body>
+    <div class="background-fixed"></div>
+    <div class="wrapper">
+      <header class="header" data-header>
+        <div class="logo">
+          <a class="logo__link" href="#"></a>
+        </div>
+        <nav class="header__navigation">
+          <ul class="nav-menu">
+            <li class="nav-menu__item">
+              <a href="#" class="nav-menu__link">
+                <i class="fa-solid fa-house"></i>
+                <span class="nav-menu__text">Home</span>
+              </a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="nav-menu__link">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="nav-menu__text">Search</span>
+              </a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="nav-menu__link">
+                <i class="fa-solid fa-plus"></i>
+                <span class="nav-menu__text">Watchlist</span>
+              </a>
+            </li>
+            <li class="nav-menu__item mobile-hidden">
+              <a href="#" class="nav-menu__link">
+                <i class="fa-solid fa-film"></i>
+                <span class="nav-menu__text">Movies</span>
+              </a>
+            </li>
+            <li class="nav-menu__item mobile-hidden">
+              <a href="#" class="nav-menu__link">
+                <i class="fa-solid fa-tv"></i>
+                <span class="nav-menu__text">Series</span>
+              </a>
+            </li>
+            <li class="nav-menu__item dropdown">
+              <a href="#" class="nav-menu__link" data-open-navsubmenu>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </a>
+              <ul class="nav-submenu" data-navsubmenu>
+                <li class="nav-submenu__item mobile-hidden">
+                  <a href="#" class="nav-submenu__link">
+                    <i class="fa-solid fa-film"></i>
+                    <span class="nav-submenu__text">Movies</span>
+                  </a>
+                </li>
+                <li class="nav-submenu__item mobile-hidden">
+                  <a href="#" class="nav-submenu__link">
+                    <i class="fa-solid fa-tv"></i>
+                    <span class="nav-submenu__text">Series</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="user-menu" data-usermenu>
+            <div class="user-menu__background show-hover"></div>
+            <div class="user-menu__current-profile" data-open-usermenu>
+              <div class="user-profile user-profile--reverse">
+                <img
+                  src="./assets/imgs/stitch.png"
+                  alt="user-profile-avatar"
+                  class="user-profile__avatar"
+                />
+                <span class="user-profile__title">Stitch</span>
+              </div>
+            </div>
+            <ul class="user-menu__options show-hover">
+              <li class="user-menu__item">
+                <a href="#" class="user-menu__link">Edit Profile</a>
+              </li>
+              <li class="user-menu__item">
+                <a href="#" class="user-menu__link">Account</a>
+              </li>
+              <li class="user-menu__item">
+                <a href="#" class="user-menu__link">Help</a>
+              </li>
+              <li class="user-menu__item">
+                <a href="#" class="user-menu__link">Log out</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="subheader">
+          <div class="subheader-content">
+            <div class="sub-header-logo">
+              <a href="#" class="sub-header-logo__link"></a>
+            </div>
+            <div class="subheader__text-1">
+              Search thousands TV shows and movies.
+            </div>
+            <div class="subheader__text-2">
+              Now you can create and keep your own watch lists directly in your
+              browser.
+            </div>
+          </div>
+        </section>
+        <section class="categories">
+          <h4>Included</h4>
+          <div class="text-xl">All the TV You Love</div>
+          <div class="sub-text">
+            Series, current-season episodes, hit movies, Originals, kids shows,
+            and more.
+          </div>
+          <div class="covers">
+            <div class="cover-1">
+              <div class="cover__grad"></div>
+              <div class="cover__text">
+                <div class="sub-title">Past & Current Seasons</div>
+                <h3>TV Shows</h3>
+              </div>
+            </div>
+            <div class="cover-2">
+              <div class="cover__grad"></div>
+              <div class="cover__text">
+                <div class="sub-title">New & Classics</div>
+                <h3>Movies</h3>
+              </div>
+            </div>
+            <div class="cover-3">
+              <div class="cover__grad"></div>
+              <div class="cover__text">
+                <div class="sub-title">Groundbreaking</div>
+                <h3>Animated movies</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="info">
+          <div class="info-content">
+            <div class="text-xl">Хто ми?</div>
+            <div class="sub-text">
+              Ми гіки, які хочуть зробити найкращий кіносайт.<br />
+              Нам не подобається те, як розвиваються сайти про кіно. Це не
+              розвиток, а стагнація.<br />
+              Ми не дуже довіряємо рецензіям кінокритиків і відгукам невідомих
+              нам людей — для нас важлива думка друзів і близьких, тому в
+              Kinoteka враження і оцінки друзів завжди на першому плані.
+            </div>
+            <div class="legal-text">Ми знаємо, хто вбив Лору Палмер</div>
+          </div>
+        </section>
+        <section class="team">
+          <div class="text-xl">Our Team</div>
+          <div class="sub-text">
+            Ми — не корпорація. Ми — мобільні, агресивні і кльові. Корпорації —
+            повільні, нецікаві і нудні.
+          </div>
+          <div class="team-content">
+            <div class="card">
+              <div class="content">
+                <div class="imgBx">
+                  <img
+                    src="assets/imgs/pic1-of-team-member.jpg"
+                    alt="pic1-of-team-member.jpg"
+                  />
+                </div>
+                <div class="contentBx">
+                  <p class="fullname">Nikita Kornyukov</p>
+                  <p class="role">Developer</p>
+                </div>
+                <div class="sci">
+                  <a href="https://telegram.me/Zurtis" target=”_blank”><i class="fa fa-telegram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="imgBx">
+                  <img
+                    src="assets/imgs/pic2-of-team-member.jpg"
+                    alt="pic2-of-team-member"
+                  />
+                </div>
+                <div class="contentBx">
+                  <p class="fullname">Volianiuk Bohdan</p>
+                  <p class="role">Director General</p>
+                </div>
+                <div class="sci">
+                  <a href="https://telegram.me/trustful_BakeS" target=”_blank”><i class="fa fa-telegram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <div class="imgBx">
+                  <img
+                    src="assets/imgs/pic3-of-team-member.jpg"
+                    alt="pic3-of-team-member"
+                  />
+                </div>
+                <div class="contentBx">
+                  <p class="fullname">Ivan Boretskyi</p>
+                  <p class="role">Developer</p>
+                </div>
+                <div class="sci">
+                  <a href="https://telegram.me/eXok989" target=”_blank”><i class="fa fa-telegram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <div class="logo">
+            <a class="logo__link" href="#"></a>
+          </div>
+          <nav class="footer__navigation">
+            <ul class="footer-menu">
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Series</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Movies</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Kids</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Account</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Privacy</a>
+              </li>
+              <li class="footer-menu__item">
+                <a href="#" class="footer-menu__link">Corporate Information</a>
+              </li>
+            </ul>
+          </nav>
+          <p class="footer__about">Найкращий сервіс для пошуку фільмів.</p>
+          <p class="footer__copyright">&copy; Kinoteka</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>
